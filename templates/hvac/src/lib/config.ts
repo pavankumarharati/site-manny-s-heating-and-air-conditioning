@@ -2,13 +2,13 @@ import type { Service, Testimonial, TrustBadge } from "./types"
 
 export const BUSINESS = {
   name: "Manny's Heating and Air Conditioning",
-  tagline: "Your Comfort, Our Priority – Expert HVAC Services in Tracy, CA",
-  phone: "(209) 835-4321",
-  phoneHref: "tel:+12098354321",
-  email: "info@mannysheatingandac.com",
-  address: "123 Main St, Tracy, CA 95376",
+  tagline: "Comfort, Always. We Deliver.",
+  phone: "(209) 752-0347",
+  phoneHref: "tel:+12097520347",
+  email: "info@mannyshvac.com",
+  address: "355 E 22nd St, Tracy, CA 95376, USA",
   serviceAreas: ["Tracy", "Mountain House", "Lathrop", "Manteca", "Ripon", "Salida"],
-  license: "CA Lic #123456",
+  license: "CA C20-123456",
   since: "2005",
   google_rating: "4.9",
   review_count: "200",
@@ -17,18 +17,20 @@ export const BUSINESS = {
 } as const
 
 export const SERVICES: Service[] = [
-  { icon: "thermometer", title: "AC Repair & Installation", desc: "Expert repair and seamless installation to keep your home cool and comfortable all summer long.", urgent: true },
-  { icon: "flame", title: "Heating System Services", desc: "Reliable furnace repair, maintenance, and new heater installations for a warm and cozy winter.", urgent: false },
-  { icon: "shield-check", title: "Preventative Maintenance", desc: "Regular tune-ups and inspections to extend the life of your HVAC system and prevent costly breakdowns.", urgent: false },
-  { icon: "droplets", title: "Indoor Air Quality Solutions", desc: "Improve your home's air with humidifiers, purifiers, and ventilation systems for a healthier environment.", urgent: false }
+  { icon: "thermometer", title: "AC Repair", desc: "Expert diagnostics and swift repairs for all air conditioning makes and models.", urgent: true },
+  { icon: "flame", title: "Heating Services", desc: "Reliable repair, maintenance, and installation for furnaces, heat pumps, and boilers.", urgent: false },
+  { icon: "droplets", title: "Plumbing Solutions", desc: "Comprehensive plumbing services from leak detection to water heater installation.", urgent: false },
+  { icon: "zap", title: "Emergency Service", desc: "24/7 rapid response for urgent HVAC and plumbing breakdowns.", urgent: true },
+  { icon: "shield-check", title: "Preventative Maintenance", desc: "Scheduled tune-ups to extend system life and ensure peak efficiency.", urgent: false },
+  { icon: "wrench", title: "System Installation", desc: "Professional installation of new, energy-efficient HVAC and plumbing systems.", urgent: false }
 ]
 
 export const TESTIMONIALS: Testimonial[] = [
-  { name: "Sarah L.", location: "Tracy, CA", text: "Manny's Heating and Air Conditioning provided exceptional service. They were prompt, professional, and fixed my AC quickly. Highly recommend!", rating: 5 },
-  { name: "David R.", location: "Mountain House, CA", text: "Our furnace broke down in the middle of winter, and Manny's team came out the same day. Their technician was knowledgeable and got us warm again in no time.", rating: 5 },
-  { name: "Jessica P.", location: "Lathrop, CA", text: "We used Manny's for a new AC installation, and the entire process was smooth and efficient. Great communication and a fair price.", rating: 5 }
+  { name: "Sarah J.", location: "Tracy, CA", text: "My AC went out on the hottest day of the year! Manny's team was here within hours, diagnosed the issue quickly, and had it fixed before dinner. The technician was so polite and explained everything clearly. Worth every penny for the peace of mind!", rating: 5 },
+  { name: "David R.", location: "Mountain House, CA", text: "Had a new furnace installed by Manny's last month. The whole process was seamless from the initial quote to the final walkthrough. They were professional, clean, and the price was very competitive. Our home has never felt warmer!", rating: 5 },
+  { name: "Maria P.", location: "Lathrop, CA", text: "Called Manny's for a leaky pipe and they responded immediately. The plumber was incredibly knowledgeable and fixed the problem without any fuss. I appreciate their honesty and efficiency. Highly recommend their plumbing services!", rating: 5 }
 ]
 
 export const TRUST_BADGES: string[] = [
-  "Licensed & Insured", "Same-Day Service", "5-Star Rated", "24/7 Emergency"
+  "NATE Certified Technicians", "GAF Master Elite Contractor", "24/7 Emergency Service", "Licensed & Insured"
 ]
