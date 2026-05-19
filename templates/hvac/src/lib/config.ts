@@ -2,13 +2,13 @@ import type { Service, Testimonial, TrustBadge } from "./types"
 
 export const BUSINESS = {
   name: "Manny's Heating and Air Conditioning",
-  tagline: "Comfort, Always. We Deliver.",
+  tagline: "Comfort, Quality, Always There",
   phone: "(209) 752-0347",
   phoneHref: "tel:+12097520347",
   email: "info@mannyshvac.com",
   address: "355 E 22nd St, Tracy, CA 95376, USA",
-  serviceAreas: ["Tracy", "Mountain House", "Lathrop", "Manteca", "Ripon", "Salida"],
-  license: "CA C20-123456",
+  serviceAreas: ["Tracy", "Manteca", "Stockton", "Modesto"],
+  license: "CA CSLB #123456",
   since: "2005",
   google_rating: "4.9",
   review_count: "200",
@@ -17,18 +17,18 @@ export const BUSINESS = {
 } as const
 
 export const SERVICES: Service[] = [
-  { icon: "thermometer", title: "AC Repair", desc: "Expert diagnostics and swift repairs for all air conditioning makes and models.", urgent: true },
-  { icon: "flame", title: "Heating Services", desc: "Reliable repair, maintenance, and installation for furnaces, heat pumps, and boilers.", urgent: false },
-  { icon: "droplets", title: "Plumbing Solutions", desc: "Comprehensive plumbing services from leak detection to water heater installation.", urgent: false },
+  { icon: "thermometer", title: "AC Repair", desc: "We quickly diagnose and fix all air conditioning issues to restore your cool comfort.", urgent: true },
+  { icon: "flame", title: "Heating Services", desc: "Expert repair, maintenance, and installation for all types of heating systems.", urgent: false },
+  { icon: "droplets", title: "Plumbing Solutions", desc: "Comprehensive plumbing services from leak repair to water heater installation.", urgent: false },
   { icon: "zap", title: "Emergency Service", desc: "24/7 rapid response for urgent HVAC and plumbing breakdowns.", urgent: true },
-  { icon: "shield-check", title: "Preventative Maintenance", desc: "Scheduled tune-ups to extend system life and ensure peak efficiency.", urgent: false },
-  { icon: "wrench", title: "System Installation", desc: "Professional installation of new, energy-efficient HVAC and plumbing systems.", urgent: false }
+  { icon: "shield-check", title: "Preventative Maintenance", desc: "Regular tune-ups extend system life and prevent costly future repairs.", urgent: false },
+  { icon: "wrench", title: "New System Installation", desc: "Professional installation of high-efficiency HVAC and plumbing systems.", urgent: false }
 ]
 
 export const TESTIMONIALS: Testimonial[] = [
-  { name: "Sarah J.", location: "Tracy, CA", text: "My AC went out on the hottest day of the year! Manny's team was here within hours, diagnosed the issue quickly, and had it fixed before dinner. The technician was so polite and explained everything clearly. Worth every penny for the peace of mind!", rating: 5 },
-  { name: "David R.", location: "Mountain House, CA", text: "Had a new furnace installed by Manny's last month. The whole process was seamless from the initial quote to the final walkthrough. They were professional, clean, and the price was very competitive. Our home has never felt warmer!", rating: 5 },
-  { name: "Maria P.", location: "Lathrop, CA", text: "Called Manny's for a leaky pipe and they responded immediately. The plumber was incredibly knowledgeable and fixed the problem without any fuss. I appreciate their honesty and efficiency. Highly recommend their plumbing services!", rating: 5 }
+  { name: "Sarah J.", location: "Tracy, CA", text: "My AC went out on the hottest day of the year! Manny's team was at my house within hours, diagnosed the problem quickly, and had it fixed before dinner. The technician was incredibly professional and explained everything clearly. So grateful for their fast, efficient service!", rating: 5 },
+  { name: "David L.", location: "Manteca, CA", text: "We had a persistent leak under our sink that other plumbers couldn't seem to fix. Manny's Heating and Air Conditioning sent out a fantastic plumber who found the hidden issue and repaired it perfectly. The price was fair, and the service was outstanding. Highly recommend!", rating: 5 },
+  { name: "Maria P.", location: "Stockton, CA", text: "I called Manny's for a new furnace installation. From the initial quote to the final setup, the entire process was smooth and stress-free. The installers were respectful of my home and did a meticulous job. My new furnace is working beautifully, and I'm so much warmer now!", rating: 5 }
 ]
 
 export const TRUST_BADGES: string[] = [
